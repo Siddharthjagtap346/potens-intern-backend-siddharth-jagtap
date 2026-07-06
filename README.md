@@ -225,44 +225,37 @@ Add these in your submission:
 
 ## 1. Prisma Studio
 
-📷 `screenshots/prisma-studio1.png`
-
-`screenshots/prisma-studio2.png`
+📷 ![Prisma Studio 1](screenshots/prisma-studio1.png)
+![Prisma Studio 2](screenshots/prisma-studio2.png)
 
 ## 2. API Response (POST /log)
 
-📷 `screenshots/post-login.png`
+📷 ![POST Log Request](screenshots/post-login.png)
+![POST Log Response](screenshots/post-log.png)
 
-`screenshots/post-log.png`
 
-`screenshots/get-log.png`
+![Get Log Response](screenshots/get-log.png)
 
-`screenshots/export-log.png`
-
-`screenshots/export-log-by-date.png`
+`![Export Logs](screenshots/export-log.png)
+![Export Logs by Date](screenshots/export-log-by-date.png)
 
 ## 3. Chain Verification PASS
 
-📷 `screenshots/verify-pass.png`
+📷 ![Chain Verification PASS](screenshots/verify-pass.png)
 
 
 ## 5. Docker Running Containers
 
-📷 `screenshots/docker.png`
+📷 ![Docker Running Containers](screenshots/docker.png)
 
 ## 6. Test Results
 
-📷 `screenshots/jest-tests.png`
-
-`screenshots/jest-tests1.png`
-
-`screenshots/jest-tests2.png`
-
-`screenshots/jest-tests3.png`
-
-`screenshots/jest-tests4.png`
-
-`screenshots/jest-tests5.png`
+📷 ![Jest Test Results 1](screenshots/jest-tests.png)
+![Jest Test Results 2](screenshots/jest-tests1.png)
+![Jest Test Results 3](screenshots/jest-tests2.png)
+![Jest Test Results 4](screenshots/jest-tests3.png)
+![Jest Test Results 5](screenshots/jest-tests4.png)
+![Jest Test Results 6](screenshots/jest-tests5.png)
 
 ---
 
