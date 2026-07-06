@@ -1,5 +1,6 @@
 import prisma from "../config/prisma.js";
 import { createChainHash } from "../utils/hash.js";
+import merkleService from "./merkle.service.js";
 
 class LogService {
   async createLog(data) {
@@ -32,6 +33,7 @@ class LogService {
       },
     });
 
+    await merkleService.updateBatchForLog(log.id);
     return log;
   }
 

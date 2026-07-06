@@ -1,16 +1,10 @@
 import logService from "../services/log.service.js";
+import { createChainHash } from "../utils/hash.js";
 
 class LogController {
   async createLog(req, res, next) {
     try {
       const { actor, action, payload } = req.body;
-
-      if (!actor || !action || payload === undefined) {
-        return res.status(400).json({
-          success: false,
-          message: "actor, action and payload are required",
-        });
-      }
 
       const log = await logService.createLog({
         actor,
@@ -41,15 +35,23 @@ class LogController {
         });
       }
 
-      const previousValid =
-        !log.previousHash ||
-        log.previousHash.length === 64;
+      const calculatedHash = createChainHash({
+  actor: log.actor,
+  action: log.action,
+  payload: log.payload,
+  previousHash: log.previousHash,
+});
+
+const chainVerification =
+  calculatedHash === log.hash
+    ? "PASS"
+    : "FAIL";
 
       return res.json({
         success: true,
         data: {
           ...log,
-          chainVerification: previousValid ? "PASS" : "FAIL",
+          chainVerification,
         },
       });
     } catch (error) {
