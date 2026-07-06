@@ -1,4 +1,3 @@
-````md
 # 🧾 Tamper-Evident Append-Only Log System
 
 ## 🏢 Potens IT Services and Consultancy Pvt. Ltd. – Internship 2026
