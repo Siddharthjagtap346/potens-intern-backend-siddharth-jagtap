@@ -23,6 +23,8 @@ Each log entry:
 
 # 🧠 Core Architecture
 
+![System Architecture](screenshots/Architecture.png)
+
 - Node.js + Express (Backend API)
 - PostgreSQL (Database)
 - Prisma ORM (Schema & migrations)
@@ -288,13 +290,6 @@ Simple but effective:
 
 * Prevents unauthorized writes
 
----
-
-# ⚠️ Known Limitations
-
-* Merkle batches are recomputed on each insert (can be optimized)
-* No distributed consensus (single-node system)
-* No persistent queue system (future improvement)
 
 ---
 
