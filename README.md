@@ -308,13 +308,13 @@ Simple but effective:
 | Tool            | Usage                                              |
 | --------------- | -------------------------------------------------- |
 | ChatGPT         | Architecture design, backend generation, debugging |
-| VS Code Copilot | Code suggestions                                   |
+| Gemini          | Code suggestions and architecture image creation   |
 | Prisma Docs     | Schema reference                                   |
 
 Approx usage:
 
-* ~15k–25k tokens ChatGPT
-* ~Light Copilot usage
+* ~3k–6k tokens ChatGPT
+* ~Light usage
 
 ---
 
