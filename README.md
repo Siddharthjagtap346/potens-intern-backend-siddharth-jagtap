@@ -358,6 +358,4 @@ This project was built as a **24-hour backend engineering challenge** focusing o
 
 ---
 
-# 🔥 End
-
 ```
